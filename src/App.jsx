@@ -5,7 +5,7 @@ import search from './assets/search.png'
 import MovieCard from './movieCard'
 
 function App() {
-  const API_URL = 'http://www.omdbapi.com/?apikey=3f609f6a'
+  const API_URL = 'https://www.omdbapi.com/?apikey=3f609f6a'
 
   const [movies, setMovies] = useState([]) // movies is the state variable and setMovies is the function that updates the state variable
 
