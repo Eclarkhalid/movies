@@ -52,8 +52,10 @@ function App() {
             </div>
           )
         }
-
-
+        <hr />
+        <footer>
+          <h3>Developed by Eclar Khalid &copy; 2023</h3>
+        </footer>
       </div>
     </>
   )

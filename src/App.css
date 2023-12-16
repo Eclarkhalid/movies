@@ -14,7 +14,7 @@
 
 body {
   font-family: var(--font-roboto);
-  background-color: #212426;
+  background-color: #ffffff;
 }
 
 .app {
@@ -31,8 +31,8 @@ h1 {
   letter-spacing: 0.9px;
   background: linear-gradient(
     90deg,
-    rgba(249, 211, 180, 1) 0%,
-    rgba(249, 211, 180, 0) 100%
+    rgb(246, 78, 0) 0%,
+    rgb(0, 255, 255) 100%
   );
   background-clip: text;
   -webkit-background-clip: text;
@@ -43,7 +43,7 @@ h1 {
 h3 {
   font-size: 1rem;
   letter-spacing: 0.9px;
-  color: aliceblue;
+  color: rgb(0, 0, 0);
   width: fit-content;
   text-align: center;
   max-width: 800px;
@@ -60,8 +60,6 @@ h3 {
   padding: 1.5rem 1.75rem;
   border-radius: 3rem;
   background: #1f2123;
-  -webkit-box-shadow: 5px 5px 7px #1c1d1f, -5px -5px 7px #222527;
-  box-shadow: 5px 5px 7px #1c1d1f, -5px -5px 7px #222527;
 }
 
 .search input {
@@ -73,7 +71,7 @@ h3 {
   padding-right: 1rem;
 
   outline: none;
-  color: #a1a1a1;
+  color: #ffffff;
   background: #1f2123;
 }
 
@@ -107,9 +105,18 @@ h3 {
   align-items: center;
 }
 
+footer {
+  width: 100%;
+  margin-top: 3rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .empty h2 {
   font-size: 1.25rem;
-  color: #f9d3b4;
+  color: #000000;
   font-family: var(--font-raleway);
 }
 
@@ -143,7 +150,7 @@ h3 {
   width: 100%;
   opacity: 0;
   top: 0;
-  color: #f9d3b4;
+  color: #000000;
 }
 
 .movie:hover {
